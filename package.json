@@ -1,1 +1,12 @@
-{"name": "supercoolnodeapp","version": "1.0.0","description": "super node app ","main": "app.js","scripts": {"start": "node app.js"},"repository": {"type": "git","url": ""},"author": "","license": "ISC","bugs": {"url": ""},"homepage": ""}
+{
+    "name": "supercoolnodeapp",
+    "version": "1.0.0",
+    "description": "Web App based on node hosted on azure through github",
+    "main": "app.js",
+    "scripts": {"start": "node app.js"},
+    "repository": {"type": "git","url": "https://github.com/Yonni-P/Web_App_With_Node"},
+    "author": "",
+    "license": "ISC",
+    "bugs": {"url": "https://github.com/Yonni-P/Web_App_With_Node/issues"},
+    "homepage": ""
+}
