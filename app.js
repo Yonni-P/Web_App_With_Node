@@ -8,7 +8,7 @@ const server = http.createServer((req, res) => {
 server.listen(port, () => {
   console.log('Server running at port ' + port)
 })
-
+/*
 const express = require('express')
 const app = express()
 const mainRoutes = require('./mainRoutes')
@@ -20,3 +20,4 @@ app.listen(port)
 console.log('Express server running on port', port)
 
 console.log('index.js ran')
+*/
