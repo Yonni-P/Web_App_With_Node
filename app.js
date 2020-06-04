@@ -20,7 +20,10 @@ const mainRoutes = require('./mainRoutes')
 app.use(mainRoutes)
 
 // const port = process.env.PORT || 3000
-app.listen(port)
-console.log('Express server running on port', port)
+// app.listen(port)
+app.listen(port, () => {
+  console.log('Server running at port ' + port)
+})
+// console.log('Express server running on port', port)
 
 console.log('index.js ran')
